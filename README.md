@@ -1,4 +1,5 @@
 - 👋 Hi, I’m Fari @DataEden
+- 😄 Pronouns: Him/he
 - 👀 I’m interested in and have hands-on experience in the following areas:
   * Aritificial Intelligence
   * Machine Learning
@@ -9,7 +10,7 @@
   * Cybersecurity
   * Full-Stack web development
   * Statistics
-  *Mathematics and everything Science and Technology oriented. 
+  * Mathematics and everything Science and Technology oriented. 
 - 🌱 I’m currently learning C-Programming language, Java Prgramming, and AI Programming with Python. 
 - 😎 Creating this Repo has been a long time coming. I hope you all find value in the various resources that's here, I certainly enjoy creating and commiting and will 
       continue to do so for the forseeable future!

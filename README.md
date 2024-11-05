@@ -14,8 +14,9 @@
 - 😎 Creating this Repo has been a long time coming. I hope you all find value in the various resources that's here, I certainly enjoy creating and commiting and will 
       continue to do so for the forseeable future!
 - 💞️ I’m looking to collaborate on projects when I've earned my AWS Solutions Architect Associate Certification (SAA) and have completed my advanced training in AI/ML.
-++ Happy Learning!
 - 📫 How to reach me: datainsidedata@gmail.com
+- 🤩 Happy Learning!
+
   
 
 <!---

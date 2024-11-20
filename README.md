@@ -32,15 +32,3 @@ Creating this repository has been an exciting journey! It’s a place where I sh
 - Favorite motto: *"Be curious. Be persistent. Build amazing things."*  
 
 Happy coding and learning! 🚀
-
-      continue to do so for the forseeable future!
-- 💞️ I’m looking to collaborate on projects when I've earned my AWS Solutions Architect Associate Certification (SAA) and have completed my advanced training in AI/ML.
-- 📫 How to reach me: datainsidedata@gmail.com
-- 🤩 Happy Learning!
-
-  
-
-<!---
-DataEden/DataEden is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->

@@ -1,7 +1,7 @@
 # 👋 Hi, I’m Fari @DataEden 
 
-😄 **Pronouns:**He/Him  
-👀 **Interests:**  
+😄   Pronouns: He/Him  
+👀   Interests:  
 I’m deeply passionate about science, technology, and innovation! Here are a few fields I’m actively exploring and contributing to:  
 - 🌐 **Artificial Intelligence & Machine Learning**  
 - 🖥️ **Software Development**  

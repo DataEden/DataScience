@@ -38,7 +38,7 @@ I’m deeply passionate about science, technology, and innovation! Here are a fe
 ---
 
 ## 📫 **Contact Me**  
-- **Email:** [datainsidedata@gmail.com](mailto:datainsidedata@gmail.com)  
+- **Email:** [datainsidedata[at]gmail[dot]com](mailto:datainsidedat@gmail.com)  
 
 ---
 
@@ -96,20 +96,25 @@ While the focus is on image classification, the skills gained are transferable t
 
 1. **Clone the repository**  
    ```bash
-   git clone <repository-link>
+   git clone <[repository-link](https://github.com/DataEden/DataScience.git)>
 
 2. **Setup your environment**
 - Follow the instructions provided in the Readme.md file to install all required dependencies.
+
 3. **Run the project**
 - Execute the classification pipeline scripts and explore detailed results in the code editor or jupyter notebooks.
+
 ## **Contribute**
 - This project is open for collaboration! Here’s how you can contribute:
+
 ## **Fork this repository to suggest improvements or extend its features.**
 - Open issues to report bugs or request enhancements.
 - Submit pull requests with your contributions.
+
 ## **Acknowledgments**
 - This project was designed by Computer Scientist Jenner S. as part of the AWS/Udacity AI Programming with Python Nanodegree.
 - Grateful for the opportunity to learn cutting-edge technologies and contribute to real-world problem-solving.
+
 ## **Future Directions**
 # **I’m exploring ways to extend this project to marketing data science, including:
 - Applying classification techniques to customer segmentation.

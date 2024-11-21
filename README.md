@@ -116,7 +116,7 @@ While the focus is on image classification, the skills gained are transferable t
 - Grateful for the opportunity to learn cutting-edge technologies and contribute to real-world problem-solving.
 
 ## **Future Directions**
-# **I’m exploring ways to extend this project to marketing data science, including:
+# **I’m exploring ways to extend this project to marketing data science, including:**
 - Applying classification techniques to customer segmentation.
 - Building predictive models for marketing campaign optimization.
 - Incorporating generative AI tools for marketing analytics.

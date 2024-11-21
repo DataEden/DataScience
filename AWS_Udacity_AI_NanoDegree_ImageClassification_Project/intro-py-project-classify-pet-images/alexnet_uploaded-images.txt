@@ -1,0 +1,80 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+** Warning: Duplicate files exist in directory: Bengal_tiger_01.jpg
+** Warning: Duplicate files exist in directory: Dog_01.jpg
+** Warning: Duplicate files exist in directory: Dog_02.jpg
+** Warning: Duplicate files exist in directory: Motorcycle_01.jpg
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:            Bengal_tiger_01.jpg  label:               bengal tiger
+ 2 key:                     Dog_01.jpg  label:                        dog
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:              Motorcycle_01.jpg  label:                 motorcycle
+
+     MATCH:
+
+ NOT A MATCH:
+
+           Bengal_tiger_01.jpg: 
+Real:               bengal tiger   Classifier:         tiger, panthera tigris
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                     weimaraner
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                     weimaraner
+
+             Motorcycle_01.jpg: 
+Real:                 motorcycle   Classifier:                          moped
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+           Bengal_tiger_01.jpg: 
+Real:               bengal tiger   Classifier:         tiger, panthera tigris  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                     weimaraner  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                     weimaraner  
+PetLabelDog: 1  ClassLabelDog: 1
+
+             Motorcycle_01.jpg: 
+Real:                 motorcycle   Classifier:                          moped  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+
+Percentages Summary:
+pct_match           :   0.00%
+pct_correct_dogs    : 100.00%
+pct_correct_breed   :   0.00%
+pct_correct_notdogs : 100.00%
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:                     weimaraner
+Real:                        dog   Classifier:                     weimaraner
+
+** Total Elapsed Runtime: 0:0:0

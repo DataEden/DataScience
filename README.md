@@ -51,33 +51,41 @@ I’m deeply passionate about science, technology, and innovation! Here are a fe
 
 # **Machine Learning Project**  
 **Part of the AWS/Udacity AI Programming with Python Nanodegree**  
-
 ---
-
 ## **Overview**  
-This project is part of the AWS/Udacity AI Programming with Python Nanodegree, originally designed by Computer Scientist Jenner S. The primary goal is to build and analyze an image classification pipeline using machine learning to classify pet images and measure model performance.  
+This project is part of the **AWS/Udacity AI Programming with Python Nanodegree**, initially designed by Computer Scientist **Jenner Staab.** The main focus is to develop an **image classification pipeline** that identifies whether or not images are of dogs, classifies their breed, and evaluates the performance of three CNN models: **ResNet, AlexNet, and VGG**.  
 
-While the focus is on image classification, the skills gained are transferable to marketing data science, enabling AI/ML to enhance decision-making and generate actionable insights.  
-
+While the focus is on image classification, the lessons learned and skills gained provide practical insights that extend and or apply to fields like **Marketing Analytics and Data Science,** enabling AI/ML to enhance decision-making and generate actionable insights.  
 ---
-
-## **Project Features**  
-
-### **Programming Languages**  
-- Python  
-- SQL  
-
-### **Tools Used**  
-- **Anaconda** & **EDM** in Visual Studio Code  
-- **Jupyter Notebooks** for interactive analysis  
-- Machine learning workflows with **scikit-learn**  
-- **Tableau** for complementary visualizations  
-
+### Objectives:
+1. **Classify Images**: Determine whether the provided images are of dogs and, if so, classify their breed.
+2. **Model Evaluation**: Compare and assess the performance of the ResNet, AlexNet, and VGG models.
+3. **Resource Optimization**: Evaluate time and resource requirements for each model and determine if alternative solutions could yield similar results efficiently.
+4. **Extend Learning**: Apply insights from classification techniques to projects in **data-driven marketing and analytics.**
+---
+### **Project Features** :
+- **Programming Languages**: Python, SQL.
+- **Tools Used**:
+  - Visual Studio Code with Anaconda.
+  - scikit-learn for machine learning workflows.
+  - **Jupyter Notebooks** for interactive analysis  
+- **Learning Outcomes**:
+  - Gained hands-on experience in **image classification**.
+  - Explored **generative AI** and predictive modeling techniques for broader analytics goals.
+  - Improved understanding of time-efficient algorithms for large-scale data handling.
+---
+### Program Breakdown:
+#### Key Tasks:
+1. **Timing Code**: Measure program runtime and resource usage.
+2. **Command Line Arguments**: Retrieve inputs dynamically using argparse.
+3. **Pet Image Labels**: Use filenames to generate accurate image labels.
+4. **Classifying Images**: Run CNN models to classify images and compare results.
+5. **Result Analysis**: Calculate accuracy and evaluate model performances.
+---
 ### **Highlights**  
 - Building an image classification pipeline using CNN models like ResNet, AlexNet, and VGG.  
 - Analyzing model performance to identify areas for optimization.  
 - Exploring the applications of generative AI in marketing and predictive modeling.  
-
 ---
 
 ## **Learning Goals**  
@@ -93,16 +101,21 @@ While the focus is on image classification, the skills gained are transferable t
 ---
 
 ## **How to Use**  
-
-1. **Clone the repository**  
-   ```bash
+---
+### Project Workflow:
+1. **Prepare Environment**:
+   - ```bash
    git clone <[repository-link](https://github.com/DataEden/DataScience.git)>
-
-2. **Setup your environment**
-- Follow the instructions provided in the Readme.md file to install all required dependencies.
-
-3. **Run the project**
-- Execute the classification pipeline scripts and explore detailed results in the code editor or jupyter notebooks.
+   - Set up your environment by following the instructions provided in the Readme.md file to install all required dependencies.
+2. **Run the project**:
+   - Execute the classification pipeline scripts with `python check_images.py`.
+   - There are answers to FAQs section provided in the notes.txt file.
+   - Use provided CNN models: ResNet, AlexNet, and VGG.
+3. **Analyze Results**:
+   - Use Jupyter Notebooks to visualize and evaluate performance metrics.
+   - Compare accuracy and runtime for each model.
+4. **Iterate and Improve**:
+   - Adjust algorithms and refine processes to improve performance.
 
 ## **Contribute**
 - This project is open for collaboration! Here’s how you can contribute:

@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Fari (@DataEden)  
+# 👋 Hi, I’m Fari @DataEden 
 😄 **Pronouns:** He/Him  
 
 ---

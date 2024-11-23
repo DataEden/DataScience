@@ -53,9 +53,11 @@ I’m deeply passionate about science, technology, and innovation! Here are a fe
 **Part of the AWS/Udacity AI Programming with Python Nanodegree**  
 ---
 ## **Overview**  
-This project is part of the **AWS/Udacity AI Programming with Python Nanodegree**, initially designed by Computer Scientist **Jenner Staab.** The main focus is to develop an **image classification pipeline** that identifies whether or not images are of dogs, classifies their breed, and evaluates the performance of three CNN models: **ResNet, AlexNet, and VGG**.  
-
-While the focus is on image classification, the lessons learned and skills gained provide practical insights that extend and or apply to fields like **Marketing Analytics and Data Science,** enabling AI/ML to enhance decision-making and generate actionable insights.  
+- This project is part of the **AWS/Udacity AI Programming with Python Nanodegree**, initially designed by Computer Scientist **Jenner Staab.**
+- The main focus is to develop an **image classification pipeline** that identifies whether or not images are of dogs, classifies their breed, and 
+- evaluates the performance of three CNN models: **ResNet, AlexNet, and VGG**.  
+- While the focus is on image classification, the lessons learned and skills gained provide practical insights that extend and or apply to fields like
+- **Marketing Analytics and Data Science,** enabling AI/ML to enhance decision-making and generate actionable insights.  
 ---
 ### Objectives:
 1. **Classify Images**: Determine whether the provided images are of dogs and, if so, classify their breed.
@@ -104,8 +106,9 @@ While the focus is on image classification, the lessons learned and skills gaine
 ---
 ### Project Workflow:
 1. **Prepare Environment**:
-   - ```bash
-   git clone <[repository-link](https://github.com/DataEden/DataScience.git)>
+    ```bash
+   git clone https://github.com/DataEden/DataScience.git
+    ```
    - Set up your environment by following the instructions provided in the Readme.md file to install all required dependencies.
 2. **Run the project**:
    - Execute the classification pipeline scripts with `python check_images.py`.

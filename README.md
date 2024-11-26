@@ -44,7 +44,8 @@ I’m deeply passionate about science, technology, and innovation! Here are a fe
 
 ## 🤩 **Fun Facts & Goals**  
 - I'm on a continuous journey of lifelong learning and discovery.  
-- **Favorite motto:** _"Be curious. Be persistent. Build amazing things."_  
+- **Favorite motto:** _"Be curious. Be persistent. Build amazing things."_
+- Favorite word, Assiduous...
 - Happy coding and learning! 🚀  
 
 ---

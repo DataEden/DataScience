@@ -5,7 +5,7 @@ Welcome to my Professional Development Portfolio! This repository showcases my a
 **Professional Certifications**
 - **AWS Certified Cloud Practitioner**  
   Issued by Amazon Web Services  
-  [View Certificate](Certifications/AWS/AWS_Certified_Cloud_Practitioner.pdf)
+  [View Certificate](Certifications/AWS/Certified_Cloud_Practitioner.pdf)
 
 📄 Certificates of Completion
 **Coursera**

@@ -9,9 +9,9 @@ Welcome to my Professional Development Portfolio! This repository showcases my a
 
 📄 Certificates of Completion
 **Coursera**
-- **Human Resource Analytics**  
-  Instructor: University of California, Irvine  
-  [View Certificate](Courses/Coursera/Human_Resources_Analytics/Human_Resources_Analytics_Certificate.pdf)
+- **AI Programming with Python**  
+  Issued by: Udacity  
+  [View Badge](Courses/Udacity/AWS-AI-ML_Classification_Project.jpg)
 
 - **Meta Marketing Science Professional**  
   Instructor: Meta  

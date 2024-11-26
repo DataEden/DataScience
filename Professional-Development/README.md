@@ -20,7 +20,7 @@ Welcome to my Professional Development Portfolio! This repository showcases my a
 🎓 Academic Achievements
 - **Associate Degree in Computer Science**  
   Institution: Medgar Evers College (CUNY)  
-  [View Diploma](Academic/Associate_Computer_Science.pdf)
+  [View Diploma](Academic/Associate_Computer_Science.jpg)
 
 ---
 

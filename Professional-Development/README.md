@@ -18,7 +18,7 @@ Welcome to my Professional Development Portfolio! This repository showcases my a
 - [Google Analytics](courses/Coursera/Google/Exploring_Data_Transformation_with_Google_Cloud_Certificate.pdf)  
   *Instructor: Google*
 
-- [Meta Marketing Science Professional](courses/Coursera/Meta/Meta_Marketing_Analytics_Foundations_Certificate.pdf) 
+- [Meta Marketing Science Professional](courses/Coursera/Meta/Meta_Marketing_Analytics_Certificate.pdf) 
   *Instructor: Meta*  
   
 ### Udacity

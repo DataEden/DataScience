@@ -42,4 +42,4 @@ I am committed to lifelong learning and plan to pursue:
 ---
 
 ### ✉️ Contact Me
-For inquiries or collaborations, reach out at [datainsidedata@gmail.com](mailto:datainsidedata@gmail.com). 
+For inquiries or collaborations, reach out at [datainsidedata[at]gmail[dot]com](mailto:datainsidedata@gmail.com). 

@@ -44,7 +44,8 @@ I’m deeply passionate about science, technology, and innovation! Here are a fe
 
 ## 🤩 **Fun Facts & Goals**  
 - I'm on a continuous journey of lifelong learning and discovery.  
-- **Favorite motto:** _"Be curious. Be persistent. Build amazing things."_  
+- **Favorite motto:** _"Be curious. Be persistent. Build amazing things."_
+- Favorite word, Assiduous...
 - Happy coding and learning! 🚀  
 
 ---
@@ -112,7 +113,7 @@ I’m deeply passionate about science, technology, and innovation! Here are a fe
    - Set up your environment by following the instructions provided in the Readme.md file to install all required dependencies.
 2. **Run the project**:
    - Execute the classification pipeline scripts with `python check_images.py`.
-   - There is a FAQ section along with other resources provided in the [notes.txt](https://github.com/DataEden/DataScience/blob/main/AWS_Udacity_AI_NanoDegree_ImageClassification_Project/notes/project_intro-to-python.md) file.
+   - There is a FAQ section along with other resources provided in [notes](https://github.com/DataEden/DataScience/blob/main/AWS_Udacity_AI_NanoDegree_ImageClassification_Project/notes/project_intro-to-python.md).
    - Use provided CNN models: ResNet, AlexNet, and VGG.
 3. **Analyze Results**:
    - Use Jupyter Notebooks to visualize and evaluate performance metrics.

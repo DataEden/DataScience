@@ -1,5 +1,6 @@
-🌟 Professional Development Portfolio
-Welcome to my Professional Development Portfolio! This repository showcases my achievements, including certifications, course completions, and academic milestones, reflecting my journey in Data Science, AI/ML, and IT.
+🌟Professional Development Portfolio
+- **Welcome to my Professional Development Portfolio!**
+-  This repository showcases my achievements, including certifications, course completions, and academic milestones, reflecting my journey in Data Science, AI/ML, and IT.
 
 📜 Certifications
 **Professional Certifications**

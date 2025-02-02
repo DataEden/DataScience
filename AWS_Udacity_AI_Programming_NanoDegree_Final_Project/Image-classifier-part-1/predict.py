@@ -3,7 +3,7 @@ import torch
 import json
 from predict_utils import load_checkpoint, process_image, predict
 
-# Parse command-line arguments**
+# Parse command-line arguments
 def get_input_args():
     parser = argparse.ArgumentParser(description="Predict the class of an image using a trained model.")
     
@@ -18,25 +18,25 @@ def get_input_args():
 
     return parser.parse_args()
 
-# Main prediction function**
+# Main prediction function
 def main():
     args = get_input_args()
 
-    # Load the trained model from checkpoint**
+    # Load the trained model from checkpoint
     model = load_checkpoint(args.checkpoint)
 
-    # Set device (GPU if available and selected)**
+    # Set device (GPU if available and selected)
     device = torch.device("cuda" if args.gpu and torch.cuda.is_available() else "cpu")
     model.to(device)
 
-    # Process input image**
+    # Process input image
     image_tensor = process_image(args.input)
     image_tensor = image_tensor.unsqueeze(0).to(device)
 
-    # Make predictions**
+    # Make predictions
     probs, classes = predict(image_tensor, model, args.top_k)
 
-    # Map class indices to actual category names if provided**
+    # Map class indices to actual category names if provided
     if args.category_names:
         with open(args.category_names, 'r') as f:
             cat_to_name = json.load(f)

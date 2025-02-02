@@ -130,16 +130,36 @@ def train_model(dataloaders, arch, hidden_units, learning_rate, epochs, use_gpu)
 
     return model
 
-# Save the trained model
-def save_checkpoint(model, save_dir, class_to_idx, arch, hidden_units, learning_rate, epochs):
+# Save the trained model as a checkpoint
+def save_checkpoint(model, save_dir, class_to_idx, arch, hidden_units=None, learning_rate=None, epochs=None):
+    """
+    Saves a trained model as a checkpoint for later use.
+    
+    Args:
+        model (torch.nn.Module): The trained model to be saved.
+        save_dir (str): The directory to save the checkpoint.
+        class_to_idx (dict): Mapping of class labels to indices.
+        arch (str): Model architecture used (e.g., 'vgg16', 'resnet50').
+        hidden_units (int, optional): Number of hidden units in the classifier.
+        learning_rate (float, optional): Learning rate used in training.
+        epochs (int, optional): Number of training epochs.
+    """
     checkpoint = {
         'arch': arch,  
         'model_state_dict': model.state_dict(),
         'class_to_idx': class_to_idx,
-        'classifier': model.classifier,
-        'hidden_units': hidden_units,
-        'learning_rate': learning_rate,
-        'epochs': epochs
+        'classifier': model.classifier
     }
-    torch.save(checkpoint, save_dir + '/checkpoint.pth')
-    print(f"Model saved to {save_dir}/checkpoint.pth")
+
+    # Add optional hyperparameters if provided
+    if hidden_units is not None:
+        checkpoint['hidden_units'] = hidden_units
+    if learning_rate is not None:
+        checkpoint['learning_rate'] = learning_rate
+    if epochs is not None:
+        checkpoint['epochs'] = epochs
+
+    # Save the checkpoint
+    checkpoint_path = f"{save_dir}/checkpoint.pth"
+    torch.save(checkpoint, checkpoint_path)
+    print(f"Model checkpoint saved to {checkpoint_path}")

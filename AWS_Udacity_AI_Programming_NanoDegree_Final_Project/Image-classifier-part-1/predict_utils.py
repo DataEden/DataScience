@@ -5,13 +5,25 @@ import numpy as np
 
 # Load the model from a checkpoint
 def load_checkpoint(filepath):
-    checkpoint = torch.load(filepath)
-    model = models.vgg16(pretrained=True)
+    checkpoint = torch.load(filepath, map_location=torch.device("cpu"))
+
+    # Retrieve the architecture from the checkpoint
+    arch = checkpoint.get('arch', 'vgg16')  # Default to 'vgg16' if not found
+
+    # Dynamically load the correct model architecture
+    if hasattr(models, arch):
+        model = getattr(models, arch)(pretrained=True)
+    else:
+        raise ValueError(f"Unknown architecture {arch}. Ensure it matches a valid torchvision model.")
+
+    # Load classifier and model state
     model.classifier = checkpoint['classifier']
     model.load_state_dict(checkpoint['model_state_dict'])
-    model.class_to_idx = checkpoint['class_to_idx']
-    print("Model loaded from checkpoint.")
+    model.class_to_idx = checkpoint.get('class_to_idx', {})
+
+    print(f"Model loaded from checkpoint: {filepath} using architecture: {arch}")
     return model
+
 
 # Preprocess the input image
 def process_image(image_path):

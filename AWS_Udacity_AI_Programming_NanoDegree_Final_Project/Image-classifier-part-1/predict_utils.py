@@ -14,10 +14,18 @@ def load_checkpoint(filepath):
     if hasattr(models, arch):
         model = getattr(models, arch)(pretrained=True)
     else:
-        raise ValueError(f"Unknown architecture {arch}. Ensure it matches a valid torchvision model.")
+        raise ValueError(f"Unknown architecture {arch}. please enter a valid torchvision model.")
 
     # Load classifier and model state
-    model.classifier = checkpoint['classifier']
+    #model.classifier = checkpoint['classifier']
+    
+    if hasattr(model, "classifier"):  
+        model.classifier = checkpoint['classifier']  # For VGG, DenseNet
+    elif hasattr(model, "fc"):  
+        model.fc = checkpoint['fc']  # Restore fc for ResNet
+    else:
+        raise ValueError(f"Unexpected model architecture: {arch}")
+    
     model.load_state_dict(checkpoint['model_state_dict'])
     model.class_to_idx = checkpoint.get('class_to_idx', {})
 

@@ -30,19 +30,26 @@ def main():
     model.to(device)
 
     # Process input image
-    image_tensor = process_image(args.input)
-    image_tensor = image_tensor.unsqueeze(0).to(device)
+    #image_tensor = process_image(args.input)
+    #image_tensor = image_tensor.unsqueeze(0).to(device)
+    
+    image_tensor = torch.from_numpy(process_image(args.input)).unsqueeze(0).float().to(device)
 
     # Make predictions
-    probs, classes = predict(image_tensor, model, args.top_k)
-
+    #probs, classes = predict(image_tensor, model, args.top_k)
+    probs, classes = predict(args.input, model, args.top_k, args.gpu)
+      
     # Map class indices to actual category names if provided
     if args.category_names:
-        with open(args.category_names, 'r') as f:
+        with open(args.category_names, 'r') as f:                    
             cat_to_name = json.load(f)
-        class_names = [cat_to_name[str(cls)] for cls in classes]
+            
+    # Match model's class_to_idx to category names
+        idx_to_class = {v: k for k, v in model.class_to_idx.items()}
+        class_names = [cat_to_name[idx_to_class[cls]] for cls in classes]
     else:
         class_names = classes  # Default to numerical class labels
+
 
     # Print predictions
     print("\n Prediction Results")

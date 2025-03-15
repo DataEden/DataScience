@@ -26,8 +26,6 @@ wheels/
 *.egg
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -50,11 +48,9 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
+# Django & Flask stuff:
 *.log
 local_settings.py
-
-# Flask stuff:
 instance/
 .webassets-cache
 
@@ -69,6 +65,18 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb~
+
+# VS Code
+.vscode/
+
+# Python Virtual Environments
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
 
 # pyenv
 .python-version
@@ -81,11 +89,6 @@ celerybeat-schedule
 
 # dotenv
 .env
-
-# virtualenv
-.venv
-venv/
-ENV/
 
 # Spyder project settings
 .spyderproject
@@ -100,4 +103,16 @@ ENV/
 # mypy
 .mypy_cache/
 
+# GitHub Actions & Workflows
 .github/**
+
+# macOS & Windows system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Docker & Dev Containers
+.devcontainer/
+docker-compose.override.yml
